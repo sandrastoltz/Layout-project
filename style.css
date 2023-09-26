@@ -1,3 +1,7 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -19,16 +23,115 @@ p {
     font-size: 2rem;
 }
 
+/*color*/
+.red {
+    background-color: #F17949;
+}
+.yellow {
+    background-color: #FFB939;
+}
+.blue {
+    background-color: #C7DDEA;
+}
+
 /*header*/
 header {
-    background-color: gray;
     grid-area: 1/1/2/-1;
+    display: flex;
+}
 
-    /*text*/
+.header-section {
+    width: 31.25rem;
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+}
+.header-section-text1 {
+    width: 19.625rem;
+    height: 6.313rem;
+    margin-left: 6.563rem;
+    margin-top: 4.438rem;
+
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 2.813rem;
+    line-height: 2.813rem;
+    color: #000000;
+}
+.header-section-text2 {
+    width: 16.75rem;
+    height: 6.438rem;
+    margin-left: 6.563rem;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #00000090;
+}
+.header-text-span {
+    color: #FFFFFF;
+}
+button {
+    margin-top: 3.188rem;
+    margin-left: 6.563rem;
+    width: 8.188rem;
+    height: 2.438rem;
+    border-radius: 6.25rem;
+    border: 0;
+    background-color: #ffffff;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.625rem;
+    color: #000000CC;
+    box-shadow: 0px 2px 0px 0px #0000001A;
+
+}
+.img-family {
+    width: 17.875rem;
+    height: 17.438rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    margin-top: 16.562rem;
+    margin-left: 15.3rem;
+}
+
+.header-article {
+    width: 31.25rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-article-text1 {
+    width: 15.625rem;
+    height: 1.063rem;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.688rem;
+    line-height: 0.825rem;
+    color: #00000080;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.header-article-text2 {
+    width: 15.625rem;
+    height: 2.563rem;
+
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*nav*/
 nav {
