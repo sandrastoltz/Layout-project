@@ -1,11 +1,11 @@
 /*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;900&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -25,135 +25,133 @@ p {
 
 /*color*/
 .red {
-    background-color: #F17949;
+  background-color: #f17949;
 }
 .yellow {
-    background-color: #FFB939;
+  background-color: #ffb939;
 }
 .blue {
-    background-color: #C7DDEA;
+  background-color: #c7ddea;
 }
 
 /*header*/
 header {
-    grid-area: 1/1/2/-1;
-    display: flex;
+  grid-area: 1/1/2/-1;
+  display: flex;
 }
 
 .header-section {
-    width: 31.25rem;
-    height: 34rem;
-    display: flex;
-    flex-direction: column;
+  width: 31.25rem;
+  height: 34rem;
+  display: flex;
+  flex-direction: column;
 }
 .header-section-text1 {
-    width: 19.625rem;
-    height: 6.313rem;
-    margin-left: 6.563rem;
-    margin-top: 4.438rem;
+  width: 19.625rem;
+  height: 6.313rem;
+  margin-left: 6.563rem;
+  margin-top: 4.438rem;
 
-    font-family: 'Frank Ruhl Libre', serif;
-    font-weight: 900;
-    font-size: 2.813rem;
-    line-height: 2.813rem;
-    color: #000000;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 900;
+  font-size: 2.813rem;
+  line-height: 2.813rem;
+  color: #000000;
 }
 .header-section-text2 {
-    width: 16.75rem;
-    height: 6.438rem;
-    margin-left: 6.563rem;
+  width: 16.75rem;
+  height: 6.438rem;
+  margin-left: 6.563rem;
 
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 500;
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    color: #00000090;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #00000090;
 }
 .header-text-span {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 button {
-    margin-top: 3.188rem;
-    margin-left: 6.563rem;
-    width: 8.188rem;
-    height: 2.438rem;
-    border-radius: 6.25rem;
-    border: 0;
-    background-color: #ffffff;
+  margin-top: 3.188rem;
+  margin-left: 6.563rem;
+  width: 8.188rem;
+  height: 2.438rem;
+  border-radius: 6.25rem;
+  border: 0;
+  background-color: #ffffff;
 
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 700;
-    font-size: 0.625rem;
-    color: #000000CC;
-    box-shadow: 0px 2px 0px 0px #0000001A;
-
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.625rem;
+  color: #000000cc;
+  box-shadow: 0px 2px 0px 0px #0000001a;
 }
 .img-family {
-    width: 17.875rem;
-    height: 17.438rem;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    margin-top: 16.562rem;
-    margin-left: 15.3rem;
+  width: 17.875rem;
+  height: 17.438rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  margin-top: 16.562rem;
+  margin-left: 15.3rem;
 }
 
 .header-article {
-    width: 31.25rem;
-    height: 17rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 31.25rem;
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .header-article-text1 {
-    width: 15.625rem;
-    height: 1.063rem;
+  width: 15.625rem;
+  height: 1.063rem;
 
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 700;
-    font-size: 0.688rem;
-    line-height: 0.825rem;
-    color: #00000080;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.688rem;
+  line-height: 0.825rem;
+  color: #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-article-text2 {
-    width: 15.625rem;
-    height: 2.563rem;
+  width: 15.625rem;
+  height: 2.563rem;
 
-    font-family: 'Frank Ruhl Libre', serif;
-    font-size: 2rem;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 2rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 /*nav*/
 nav {
-    grid-area: 2/1/3/-1;
-    display: flex;
-    justify-content: center;
+  grid-area: 2/1/3/-1;
+  display: flex;
+  justify-content: center;
 }
 .nav-text {
-    width: 10.438rem;
-    height: 3.563rem;
+  width: 10.438rem;
+  height: 3.563rem;
 
-    font-family: 'Fira Sans', sans-serif;
-    text-decoration: none;
-    color: #000000;
-    font-weight: 600;
-    font-size: 0.75rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: "Fira Sans", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav-text2 {
-    opacity: 40%;
+  opacity: 40%;
 }
 
 /*main*/
@@ -165,8 +163,8 @@ main {
 }
 
 .mainWrapper {
-  width: 1002px;
-  height: 1292px;
+  width: 62.625rem;
+  height: 80.75rem;
   display: flex;
   flex-direction: column;
   background: linear-gradient(to bottom, #a9a19e 50%, #fab131 50%);
@@ -176,8 +174,8 @@ main {
 
 .section3 {
   background-color: #fab131;
-  width: 1002px;
-  height: 680px;
+  width: 62.625rem;
+  height: 42.5rem;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -230,8 +228,8 @@ main {
   color: #000000cc;
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 900;
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 2.813rem;
+  line-height: 2.813rem;
   letter-spacing: -2%;
   text-align: center;
 }
@@ -241,16 +239,16 @@ main {
 .article4 :nth-child(1),
 .article5 :nth-child(1),
 .article6 :nth-child(1) {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #00000066;
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 900;
-  font-size: 35px;
-  line-height: 35px;
+  font-size: 2.188rem;
+  line-height: 2.188rem;
   letter-spacing: -2%;
   text-align: center;
 }
@@ -263,31 +261,31 @@ main {
   color: #000000b2;
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 1.063rem;
+  line-height: 1.25rem;
   letter-spacing: -2%;
   text-align: center;
   align-self: center;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .mainImg1 {
-  height: 158px;
+  height: 9.875rem;
   width: auto;
-  margin-top: 35px;
+  margin-top: 2.188rem;
 }
 
 .mainImg2 {
-  height: 440px;
+  height: 27.5rem;
   width: auto;
   align-self: flex-start;
-  margin-top: 15px;
+  margin-top: 0.938rem;
 }
 
 .mainImg3 {
-  height: 370px;
+  height: 23.125rem;
   width: auto;
   align-self: flex-start;
-  margin-top: 22px;
+  margin-top: 1.375rem;
 }
 
 .frame1 {
@@ -301,27 +299,27 @@ main {
 }
 
 .imgFrame {
-  width: 236px;
-  height: 150px;
+  width: 14.75rem;
+  height: 9.375rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 4px;
-  margin-top: -30px;
+  border-radius:0.25rem;
+  margin-top: -1.875rem;
   overflow: hidden;
 }
 
 .mainImgWrapper {
   margin: auto;
   display: flex;
-  gap: 26px;
+  gap: 1.625rem;
   align-items: center;
 }
 
 .mainImgWrapper > figure {
   background-color: #ffffff;
-  width: 256px;
-  height: 308px;
+  width:16rem;
+  height: 19.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -329,28 +327,27 @@ main {
 }
 
 .mainImgWrapper > figure > figcaption {
-  width: 214px;
-  height: 108px;
+  width: 13.375rem;
+  height: 6.75rem;
   color: #000000b2;
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  font-size: 11px;
-  line-height: 18px;
+  font-size: 0.688rem;
+  line-height: 1.125rem;
   text-align: center;
 }
 
 .mainImgWrapper > figure > h3 {
   font-family: "Frank Ruhl Libre", serif;
-  font-weight: 700px;
-  font-size: 16px;
-  line-height: 20px;
+  font-weight:43.75rem;
+  font-size:1rem;
+  line-height: 1.25rem;
   text-align: center;
-
 }
 
 .section1 {
-  width: 1002px;
-  height: 612px;
+  width: 62.625rem;
+  height:38.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -359,50 +356,46 @@ main {
 .section1_left {
   display: flex;
   flex-direction: column;
-  gap: 71px;
+  gap: 4.438rem;
   height: 100%;
-  padding-left: 90px ;
+  padding-left:5.625rem;
 }
 
 .section1_left > h2 {
   color: #ffffff;
   font-family: "Frank Ruhl Libre", serif;
-  font-weight: 900px;
-  font-size: 45px;
-  line-height: 45px;
+  font-weight: 56.25rem;
+  font-size: 2.813rem;
+  line-height: 2.813rem;
   letter-spacing: -2%;
-  margin-top: 103px;
-  padding: 2px;
+  margin-top: 6.438rem;
+  padding:0.125rem;
 }
 
 .section1_right > p {
-    color: 
-    #000000;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    margin-right: 135px;
-    margin-bottom: 87px;
-   
-   
+  color: #000000;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size:0.875rem;
+  line-height:1.5rem;
+  margin-right:8.438rem;
+  margin-bottom:5.438rem;
 }
 
 .joinBtn {
-  width: 131px;
-  height: 39px;
-  border-radius: 100px;
+  width:8.188rem;
+  height: 2.438rem;
+  border-radius: 6.25rem;
   font-family: "Fira Sans", sans-serif;
-  font-weight: 700px;
-  font-size: 10px;
-  line-height: 12px;
+  font-weight: 43.75rem;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
   text-align: center;
-  
 }
 
 .section2 {
-  width: 1002px;
-  height: 612px;
+  width:62.625rem;
+  height:38.25rem;
 }
 
 /*footer*/
