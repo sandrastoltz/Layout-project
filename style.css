@@ -435,13 +435,14 @@ footer {
     background-color: #A9A19E;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .img-chevrons {
-    width: 2rem;
-    height: 2rem;
+    width: auto;
+    height: auto;
+    margin-top: 0.5rem;
 }
 
 .footer-text {
