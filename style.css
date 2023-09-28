@@ -6,6 +6,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -26,9 +29,15 @@ body {
 header {
   grid-area: 1/1/2/-1;
   display: flex;
+  grid-area: 1/1/2/-1;
+  display: flex;
 }
 
 .header-section {
+  width: 31.25rem;
+  height: 34rem;
+  display: flex;
+  flex-direction: column;
   width: 31.25rem;
   height: 34rem;
   display: flex;
@@ -39,7 +48,13 @@ header {
   width: 31.25rem;
   height: 34rem;
   background-color: #c7ddea;
+  width: 31.25rem;
+  height: 34rem;
+  background-color: #c7ddea;
 
+  display: grid;
+  grid-template-columns: [line1] 6.563rem [line2] 5.812rem [line3] 2.375rem [line4] 8.563rem [line5] 2.875rem [line6] 4.062rem [line7] 1rem [line8];
+  grid-template-rows: [line1] 4.438rem [line2] 6.313rem [line3] 5.812rem [line4] 0.626rem [line5] 3.186rem [line6] 2.438rem [line7] 11.187rem [line8];
   display: grid;
   grid-template-columns: [line1] 6.563rem [line2] 5.812rem [line3] 2.375rem [line4] 8.563rem [line5] 2.875rem [line6] 4.062rem [line7] 1rem [line8];
   grid-template-rows: [line1] 4.438rem [line2] 6.313rem [line3] 5.812rem [line4] 0.626rem [line5] 3.186rem [line6] 2.438rem [line7] 11.187rem [line8];
@@ -49,7 +64,15 @@ header {
   width: 19.625rem;
   height: 6.313rem;
   grid-area: 2/2/6/3;
+  width: 19.625rem;
+  height: 6.313rem;
+  grid-area: 2/2/6/3;
 
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 900;
+  font-size: 2.813rem;
+  line-height: 2.813rem;
+  color: #000000;
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 900;
   font-size: 2.813rem;
@@ -68,13 +91,26 @@ header {
   line-height: 1.5rem;
   color: #000000;
   opacity: 60%;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #000000;
+  opacity: 60%;
 }
 
 .header-text-span {
   color: #ffffff;
+  color: #ffffff;
 }
 
 .header-button {
+  grid-area: 6/2/7/4;
+  width: 8.188rem;
+  height: 2.438rem;
+  border-radius: 6.25rem;
+  border: 0;
+  background-color: #ffffff;
   grid-area: 6/2/7/4;
   width: 8.188rem;
   height: 2.438rem;
@@ -92,9 +128,22 @@ header {
   font-size: 0.625rem;
   color: #000000cc;
   box-shadow: 0 0.125rem 0 0 #0000001a;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.625rem;
+  color: #000000cc;
+  box-shadow: 0 0.125rem 0 0 #0000001a;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.625rem;
+  color: #000000cc;
+  box-shadow: 0 0.125rem 0 0 #0000001a;
 }
 
 .img-family {
+  width: 17.875rem;
+  height: 17.438rem;
+  grid-area: 4/3/-1/7;
   width: 17.875rem;
   height: 17.438rem;
   grid-area: 4/3/-1/7;
@@ -104,7 +153,13 @@ header {
   width: 31.25rem;
   height: 34rem;
   background-color: #c7ddea;
+  width: 31.25rem;
+  height: 34rem;
+  background-color: #c7ddea;
 
+  display: grid;
+  grid-template-columns: repeat(6, 5.208rem);
+  grid-template-rows: repeat(6, 5.666rem);
   display: grid;
   grid-template-columns: repeat(6, 5.208rem);
   grid-template-rows: repeat(6, 5.666rem);
@@ -118,7 +173,14 @@ header {
 .header-red {
   background-color: #f17949;
   grid-area: 1/1/-1/4;
+  background-color: #f17949;
+  grid-area: 1/1/-1/4;
 
+  /*text*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /*text*/
   display: flex;
   flex-direction: column;
@@ -129,7 +191,14 @@ header {
 .header-yellow {
   background-color: #ffb939;
   grid-area: 4/1/-1/-1;
+  background-color: #ffb939;
+  grid-area: 4/1/-1/-1;
 
+  /*text*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /*text*/
   display: flex;
   flex-direction: column;
@@ -140,7 +209,18 @@ header {
 .header-article-text1 {
   width: 15.625rem;
   height: 1.063rem;
+  width: 15.625rem;
+  height: 1.063rem;
 
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.688rem;
+  line-height: 0.825rem;
+  color: #000000;
+  opacity: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: 0.688rem;
@@ -434,6 +514,8 @@ main {
 .article1 > h2 {
   color: #000000;
   opacity: 80%;
+  color: #000000;
+  opacity: 80%;
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 900;
   font-size: 2.813rem;
@@ -454,6 +536,8 @@ main {
   align-items: center;
   color: #000000;
   opacity: 40%;
+  color: #000000;
+  opacity: 40%;
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 900;
   font-size: 2.188rem;
@@ -467,6 +551,8 @@ main {
 .article4 :nth-child(2),
 .article5 :nth-child(2),
 .article6 :nth-child(2) {
+  color: #000000;
+  opacity: 70%;
   color: #000000;
   opacity: 70%;
   font-family: "Fira Sans", sans-serif;
@@ -499,12 +585,25 @@ footer {
   width: auto;
   height: auto;
   margin-top: 0.5rem;
+  width: auto;
+  height: auto;
+  margin-top: 0.5rem;
 }
 
 .footer-text {
   width: 15.938rem;
   height: 1.938rem;
+  width: 15.938rem;
+  height: 1.938rem;
 
+  color: #000000;
+  opacity: 70%;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.063rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #000000;
   opacity: 70%;
   font-family: "Fira Sans", sans-serif;
