@@ -303,7 +303,7 @@ main {
   font-weight: 700;
   font-size: 0.625rem;
   color: #000000;
-  opacity:80%;
+  opacity: 80%;
   box-shadow: 0 0.125rem 0 0 #0000001a;
 }
 
@@ -334,7 +334,6 @@ main {
   font-weight: 900;
   font-size: 2.813rem;
   line-height: 2.813rem;
-  letter-spacing: -2%;
   margin-top: 6.7rem;
 }
 
@@ -358,7 +357,6 @@ main {
   font-weight: 900;
   font-size: 2.813rem;
   line-height: 2.813rem;
-  letter-spacing: -2%;
   text-align: center;
   position: relative;
   top: 49px;
@@ -437,7 +435,6 @@ main {
   font-weight: 900;
   font-size: 2.813rem;
   line-height: 2.813rem;
-  letter-spacing: -2%;
   text-align: center;
 }
 
@@ -459,7 +456,6 @@ main {
   font-weight: 900;
   font-size: 2.188rem;
   line-height: 2.188rem;
-  letter-spacing: -2%;
   text-align: center;
 }
 
@@ -476,10 +472,9 @@ main {
   font-weight: 500;
   font-size: 1.063rem;
   line-height: 1.25rem;
-  letter-spacing: -2%;
   text-align: center;
   align-self: center;
-  margin-top: 1.875rem;
+  margin-top: 3rem;
 }
 
 /*footer*/
