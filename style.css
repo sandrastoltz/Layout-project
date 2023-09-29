@@ -508,6 +508,7 @@ footer {
   opacity: 70%;
   font-family: "Fira Sans", sans-serif;
   font-size: 1.063rem;
+  font-weight: 500;
   line-height: 1.25rem;
   display: flex;
   align-items: center;
